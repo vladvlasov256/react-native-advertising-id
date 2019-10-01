@@ -9,8 +9,8 @@ import Foundation
 
 @objc(RNAdvertisingId)
 class RNAdvertisingId: NSObject {
-    @objc
-    func getAdvertisingId(_ resolve: @escaping RCTPromiseResolveBlock, rejecter reject: @escaping RCTPromiseRejectBlock) {
+    @objc(getAdvertisingId:rejecter:)
+    func getAdvertisingId(_ resolve: RCTPromiseResolveBlock, rejecter reject:RCTPromiseRejectBlock) -> Void {
         let isAdvertisingTrackingEnabled : Bool = ASIdentifierManager.shared().isAdvertisingTrackingEnabled
         
         let response: NSMutableDictionary = [

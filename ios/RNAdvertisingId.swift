@@ -5,7 +5,7 @@
 //
 
 import AdSupport
-//import Foundation
+import Foundation
 
 @objc(RNAdvertisingId)
 class RNAdvertisingId: NSObject {

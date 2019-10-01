@@ -9,9 +9,9 @@
 @interface RCT_EXTERN_MODULE(RNAdvertisingId, NSObject)
 
 RCT_EXTERN_METHOD(
-  getAdvertisingId,
-  resolve:(RCTPromiseResolveBlock)resolve
-  rejecter:(RCTPromiseRejectBlock)reject)
+                  getAdvertisingId: ()
+                  resolve:(RCTPromiseResolveBlock)resolve
+                  rejecter:(RCTPromiseRejectBlock)reject
 )
 
 @end

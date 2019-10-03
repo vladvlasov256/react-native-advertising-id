@@ -2,11 +2,21 @@
   "name": "react-native-advertising-id",
   "version": "1.0.8",
   "description": "React Native bridge for fetching advertising info on iOS and Android",
+  "main": "index.js",
+  "module": "index.js",
+  "react-native": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "android/",
+    "ios/"
+  ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:applike/react-native-advertising-id.git"
+    "url": "git@github.com:applike/react-native-advertising-id.git",
+    "baseUrl": "https://github.com/applike/react-native-advertising-id"
   },
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -25,6 +35,6 @@
     "react-native": "^0.58.4"
   },
   "peerDependencies": {
-    "react-native": "^0.58.4"
+    "react-native": "*"
   }
 }
